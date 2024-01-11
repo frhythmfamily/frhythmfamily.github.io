@@ -158,6 +158,7 @@ body {
 .card .row {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .card .row .container {
@@ -296,13 +297,28 @@ footer .credit p {
 }
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 616px) {
     html {
-        font-size: 55%;
+        font-size: 60%;
     }
 
     .carousel_dot {
         width: 50%;
         height: 50%;
+    }
+
+    .card .row .container {
+        width: 100%;
+    }
+
+    .card .row .container h2,
+    .card .row .container p {
+        font-size: 230%;
+        max-width: 100%;
+    }
+
+    .card .row .container img {
+        width: 100%;
+        height: auto;
     }
 }
