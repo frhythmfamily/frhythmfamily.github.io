@@ -139,6 +139,7 @@ body {
 .swiper-button-prev {
     margin-top: 0;
     color: transparent;
+    width: 6rem;
     height: 100%;
     position: absolute;
     top: 0;
