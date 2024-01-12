@@ -79,6 +79,9 @@ body {
     position: relative;
 }
 
+.navbar .navbar-nav a.active {
+    color: var(--red);
+}
 .navbar .navbar-nav a:hover {
     color: var(--red);
 }
@@ -90,6 +93,14 @@ body {
     border-bottom: 0.2rem solid var(--primary);
     transform: scaleX(0);
     transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a.active::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid var(--primary);
+    transform: scaleX(0.5);
 }
 
 .navbar .navbar-nav a:hover::after {
