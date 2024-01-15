@@ -291,6 +291,7 @@ footer .credit p {
         display: block;
         margin: 1.5rem;
         padding: 0.5rem;
+        width: fit-content;
         font-size: 2rem;
     }
 
@@ -300,7 +301,7 @@ footer .credit p {
 
     .navbar .navbar-nav a:hover::after,
     .navbar .navbar-nav a.active::after {
-        transform: scaleX(0.2);
+        transform: scaleX(1);
     }
 }
 
@@ -308,11 +309,6 @@ footer .credit p {
 @media (max-width: 616px) {
     html {
         font-size: 60%;
-    }
-
-    .carousel_dot {
-        width: 50%;
-        height: 50%;
     }
 
     .card .row .container {
