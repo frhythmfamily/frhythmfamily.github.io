@@ -325,4 +325,8 @@ footer .credit p {
         width: 100%;
         height: auto;
     }
+
+    .navbar .navbar-nav {
+        width: 20rem;
+    }
 }
